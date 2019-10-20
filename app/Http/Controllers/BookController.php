@@ -10,7 +10,7 @@ class BookController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @return BookResource
+     * @return \Illuminate\Http\Resources\Json\AnonymousResourceCollection
      */
     public function index()
     {
